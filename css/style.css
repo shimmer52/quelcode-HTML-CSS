@@ -71,6 +71,19 @@ ul, li {
     opacity: 0.5;
 }
 
+/* ページ上部に戻る */
+#page-top {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+#page-top img {
+    width: 35px;
+    height: 35px;
+    vertical-align: top;
+}
+
+
 /* レスポンシブ　（タブレット以上） */
 @media screen and (min-width: 768px) {
     .header-menu {
@@ -79,6 +92,12 @@ ul, li {
     .header-menu li{
         padding: 0px 18px;
     }
+    #page-top img {
+        width: 60px;
+        height: 60px;
+        vertical-align: top;
+    }
+    
 }
 
 /* レスポンシブ　（デスクトップ） */
