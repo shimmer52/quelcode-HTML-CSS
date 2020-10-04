@@ -213,3 +213,134 @@ ul, li {
         margin: 0 5px;
     }
 }
+
+/* mein area*/
+.main {
+    margin: 10px auto;
+    line-height: 30px;
+    max-width: 800px;
+}
+.main h2 {
+    margin-top: 40px;
+    font-size: 18px;
+    padding: 0 0 0 30px;
+    background: url(../images/title-mark.png) no-repeat;
+    background-size: 25px 27px;
+}
+.main p {
+    padding: 10px;
+}
+.pdf-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 65px;
+    padding-top: 8px;
+    margin: 25px auto;
+    background-color: #045CAC;
+    text-align: center;
+    line-height: 15px;
+}
+.pdf-link a {
+    display: block;
+    color: #ffffff;
+}
+.pdf-link:hover {
+    opacity: 0.8;
+}
+.pdf-link a::before {
+    content: ">";
+}
+.pdf-link img {
+    width: 17px;
+    height: 17px;
+    padding-left: 1em;
+    padding-top: 0px;
+}
+.next-page {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.next-page li:first-child {
+    float: left;
+}
+.next-page li:last-child {
+    float: right;
+}
+.next-page a {
+    color: #045CAC;
+    padding: 0 5px;
+}
+.next-page a:hover {
+    text-decoration: underline;
+}
+.strengths {
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 15px auto;
+    background: #DFEDF8;
+    width: 95%;
+    height: auto;
+}
+.strengths h3 {
+    font-size: 16px;
+}
+.strengths li {
+    padding: 10px;
+    height: 28px;
+    margin: 10px auto;
+    background: url(../images/chevronRight-icon.svg) no-repeat left 10px top 18px;
+    background-size: 5px;
+    background-color: #ffffff;
+    border: solid 1px #cccccc;
+    text-align: center;
+}
+.strengths a {
+    display: block;
+    font-size: 15px;
+    color: #0c419a;
+    padding: 0 15px;
+}
+.strengths li:hover {
+    background-color: #F4F4F4;
+}
+@media screen and (min-width: 768px) {
+    .main h2 {
+        font-size: 22px;
+    }
+    .strengths {
+        width: 100%;
+    }
+    .strengths ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .strengths li {
+        width: 210px;
+        height: auto;
+    }
+    .strengths li:nth-child(1) {
+        height: 50px;
+        display: inline-block;
+        vertical-align: middle;
+        background: url(../images/chevronRight-icon.svg) no-repeat left 10px top 28px;
+        background-size: 5px;
+        background-color: #ffffff;
+    }
+    .strengths li:nth-child(2) {
+        background: url(../images/chevronRight-icon.svg) no-repeat left 10px top 28px;
+        background-size: 5px;
+        background-color: #ffffff;
+        padding-top: 20px;
+    }
+    .strengths li:nth-child(3) {
+        background: url(../images/chevronRight-icon.svg) no-repeat left 10px top 28px;
+        background-size: 5px;
+        background-color: #ffffff;
+        padding-top: 20px;
+    }
+    .strengths li:hover {
+        background-color: #F4F4F4;
+    }
+}
