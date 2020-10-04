@@ -110,3 +110,106 @@ ul, li {
     }
 }
 
+/* パンくずリスト */
+.breadcrumb {
+    color: #999;
+    font-size: 12px;
+}
+.breadcrumb ol {
+    padding: 0;
+    margin: 0 0 0 5%;
+}
+.breadcrumb li {
+    display: inline-block;
+    margin-top: 60px;
+    padding: 0;
+}
+.breadcrumb li::after {
+    content: ">";
+    color: #000;
+}
+.breadcrumb li:last-child::after {
+    content: none;
+}
+.breadcrumb a {
+    text-decoration: none;
+    color: #999;
+    padding: 0 0.1rem;
+}
+
+/* ============= main ============= */
+
+/* mein-visual */
+.main-visual {
+    background: url(../images/keyvisual.jpg) center;
+    background-size: cover;
+    height: 200px;
+    margin-top: 20px;
+}
+.main-visual p {
+    display: none;
+}
+.main-visual h1 {
+    color: #ffffff;
+    font-size: 18px;
+    padding-left: 1rem;
+    padding-top: 2rem;
+    font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+    .main-visual {
+        height: 250px;
+    }
+    .key-words {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .main-visual p {
+        display: block;
+        font-size: 20px;
+        color: #ffffff;
+        padding-top: 2rem;
+    }
+    .main-visual h1 {
+        font-size: 27px;
+        padding-left: 0;
+        padding-top: 1.5rem;
+    }
+}
+
+/* share icon */
+.share-area {
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 11px;
+    color: #666;
+    font-weight: 700;
+}
+.share-area ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.share-area img {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
+
+@media screen and (min-width: 768px) {
+    .share-area {
+        margin: 35px auto;
+        max-width: 800px;
+    }
+    .share-area ul {
+        align-items: center;
+    }
+    .share-area img {
+        width: 25px;
+        height: 25px;
+    }
+    .share-area li {
+        margin: 0 5px;
+    }
+}
