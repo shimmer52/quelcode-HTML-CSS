@@ -265,7 +265,7 @@ ul, li {
 }
 .next-page {
     margin-top: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
 }
 .next-page li:first-child {
     float: left;
@@ -364,6 +364,7 @@ ul, li {
     padding-top: 20px;
     padding-bottom: 50px;
     border-bottom: dotted 1px #666666;
+    margin-top: 100px;
 }
 .info-links p {
     font-weight: 600;
@@ -430,6 +431,9 @@ a.previous-page{
 .nav-share li {
     margin: 5px 10px;
 }
+.nav-share li:first-child {
+    padding-right: 30px;
+}
 .nav-share img {
     width: 20px;
     height: 20px;
@@ -460,5 +464,121 @@ a.previous-page{
         width: 28px;
         height: 28px;
         margin: 0;
+    }
+}
+
+/* ============= ページ下部のナビメニュー ============= */
+.under-nav {
+    display: none;
+}
+
+/* レスポンシブ */
+@media screen and (min-width: 768px) {
+    main {
+        border-bottom: solid 1px #cccccc;
+    }
+    .under-nav {
+        display: block;
+        padding: 0;
+        margin: 0 auto;
+        max-width: 1300px;
+    }
+    .nav-menu {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 0;
+    }
+    .nav-menu > li {
+        width: 23%;
+        padding: 10px 0 10px 10px;
+        margin: 30px 0;
+    }    
+    .nav-menu a {
+        font-size: 14px;
+        color: #000;
+    }
+    .nav-menu a:hover {
+        text-decoration: underline;
+    }
+    .sub-nav-menu > li > a {
+        display: inline-block;
+        margin: 10px 0;
+    }
+    .sub-nav-menu li {
+        padding-left: 15px;
+        background: url(../images/chevronRight-icon.svg) no-repeat left 0 top 15px;
+        background-size: 7px 7px;
+    }
+    .menu-top a {
+        font-size: 16px;
+        font-weight: 700;
+    }
+}
+
+/* ============== footer ============== */
+footer {
+    margin-top:40px;
+    border-top: dotted 1px #999999;
+    margin-bottom: 80px;
+}
+footer ul {
+    display: block;
+}
+footer li {
+    padding: 8px;
+    border-bottom: dotted 1px #999999;
+}
+footer a {
+    font-size: 12px;
+    color: #999999;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+small {
+    font-size: 10px;
+    color: #333333;
+    margin: 0 auto;
+    padding-left: 10px;
+}
+
+/* レスポンシブ */
+@media screen and (min-width: 768px) {
+    footer ul {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 60px;
+        margin-bottom: 15px;
+        font-size: 12px;
+        margin-left: 0;
+        padding: 0;
+    }
+    footer li {
+        border: none;
+        padding: 0;
+        margin: 0;
+    }
+    footer a {
+        color: #999999;
+        padding: 0 20px 0 0;
+        margin: 0;
+    }
+    footer li::after {
+        content: "|";
+        color: #999999;
+    }
+    footer li:last-child::after {
+        content: none;
+    }
+    footer {
+        border: none;
+        max-width: 1000px;
+        margin: 0 auto;
+        padding-bottom: 100px;
+    }
+    small {
+        padding-left: 0;
     }
 }
