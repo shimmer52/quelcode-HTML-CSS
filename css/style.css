@@ -247,7 +247,7 @@ ul, li {
 .main h2 {
     margin-top: 40px;
     font-size: 18px;
-    padding: 0 0 0 30px;
+    padding: 0 0 20px 30px;
     background: url(../images/title-mark.png) no-repeat;
     background-size: 25px 27px;
 }
@@ -262,7 +262,8 @@ ul, li {
     height: 65px;
     padding-top: 8px;
     margin: 25px auto;
-    background-color: #045CAC;
+    background: #045CAC url(../images/chevron-white.png) no-repeat left 7px top 30px;
+    background-size: 12px 12px;
     text-align: center;
     line-height: 15px;
 }
@@ -272,9 +273,6 @@ ul, li {
 }
 .pdf-link:hover {
     opacity: 0.8;
-}
-.pdf-link a::before {
-    content: ">";
 }
 .pdf-link img {
     width: 17px;
@@ -515,6 +513,7 @@ a.previous-page{
     }    
     .nav-menu a {
         font-size: 14px;
+        font-weight: 300;
         color: #000;
     }
     .nav-menu a:hover {
@@ -530,7 +529,8 @@ a.previous-page{
         background-size: 7px 7px;
     }
     .menu-top a {
-        font-size: 16px;
+        font-size: 15px;
+        color: #333333;
         font-weight: 700;
     }
 }
