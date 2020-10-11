@@ -722,3 +722,143 @@ a.meeting {
 .other-link > li a:hover {
     opacity: 0.7;
 }
+
+/* ============== footer =============== */
+footer {
+    background: #f7f7f7;
+}
+footer > .wrapper {
+    max-width: 1050px;
+    margin: 0 auto;
+}
+.information {
+    padding-top: 30px;
+    padding-bottom: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.information ul {
+    display: flex;
+}
+.information a {
+    color: #000066;
+    font-weight: bold;
+    padding: 0 10px;
+}
+.information li::after {
+    content: "|";
+    color: #999999;
+}
+.information li:last-child::after {
+    content: none;
+}
+.information a:hover {
+    text-decoration: underline;
+}
+.page-top:hover {
+    opacity: 0.8;
+}
+.footer-nav ul {
+    display: flex;
+}
+.footer-nav > ul > li {
+    width: 20%;
+    padding-right: 15px;
+}
+.footer-sub-nav {
+    display: flex;
+    flex-direction: column;
+}
+.footer-sub-nav {
+    font-size: 14px;
+    line-height: 30px;
+}
+.footer-sub-nav a {
+    color: #000000;
+}
+.nav-heading a {
+    color: #000066;
+    font-weight: bold;
+    font-size: 16px;
+}
+.nav-heading span {
+    font-size: 11px;
+}
+.footer-sub-nav a:hover {
+    text-decoration: underline;
+}
+li.top-bar {
+    padding-top: 15px;
+    border-top: solid 1px #c9c9c9;
+    margin-top: 15px;
+}
+.sns-link {
+    border-top: solid 1px #c9c9c9;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+.sns-link > p > a {
+    color: #000;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 30px;
+    padding-right: 15px;
+}
+.sns-link > p > a:hover {
+    text-decoration: underline;
+}
+.sns-item {
+    display: flex;
+    align-items: center;
+}
+.sns-item li {
+    padding: 5px 25px 5px 5px;
+    margin: 15px 0;
+    border-right: solid 1px #ddd;
+    position: relative;
+}
+.sns-item a {
+    display: flex;
+    vertical-align: middle;
+    font-size: 12px;
+    color: #272727;
+}
+.sns-item a::after {
+    content: ">";
+    font-size: 15px;
+    color: #ddd;
+    position: absolute;
+    top: 12px;
+    right: 10px;
+}
+.sns-item li:last-child {
+    border-right: none;
+}
+.sns-item img {
+    width: 28px;
+    height: 28px;
+    padding: 5px;
+}
+.sns-item li:hover {
+    background: #e2e2e2;
+}
+.copyright {
+    background: #1b1b1b;
+    color: #999999;
+    font-size: 11px;
+    padding: 15px 0;
+}
+.copyright > .wrapper {
+    max-width: 1050px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.copyright a {
+    color: #999999;
+}
+.copyright a:hover {
+    text-decoration: underline;
+}
