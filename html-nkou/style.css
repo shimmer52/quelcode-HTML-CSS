@@ -164,7 +164,7 @@ nav li:nth-child(4):hover {
 .header-sub-nav {
     background: #181937;
     margin-top: 23px;
-    padding: 5px 0;
+    padding: 5px 0 5px 0;
     font-size: 15px;
 }
 header {
@@ -176,7 +176,7 @@ header {
     width: 0;
     height: 0;
     left: 270px;
-    top: 173px;
+    top: 171px;
     border-style: solid;
     border-color: transparent transparent transparent #181937;
     border-width: 10px 0 10px 17.32px;
@@ -184,6 +184,7 @@ header {
 }
 .header-sub-nav ul {
     max-width: 1050px;
+    margin: 0 auto;
     padding: 5px 0 0 0;
     display: flex;
     flex-wrap: wrap;
@@ -344,7 +345,7 @@ h3 {
     font-size: 26px;
     font-weight: normal;
     margin: 30px 0;
-    padding: 10px 0;
+    padding: 30px 0 10px 0;
     background: url(images/line02_black01.png) no-repeat left 0 bottom;
     background-size: 100%;
 }
@@ -422,7 +423,7 @@ h3 {
     display: flex;
     justify-content: space-between;
 }
-h4 {
+.text h4 {
     font-size: 25px;
     font-weight: 500;
     padding-bottom: 25px;
@@ -439,3 +440,127 @@ h4 {
 .postscript {
     font-size: 12px;
 }
+
+/* contents */
+.contents .wrapper:nth-child(odd) {
+    background: #f7f7f7;
+    border-top: solid 1px #e2e2e2;
+    border-bottom: solid 1px #e2e2e2;
+}
+.contents {
+    text-align: center;
+    margin-top: 70px;
+}
+article {
+    max-width: 1050px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.contents h2 {
+    font-size: 33px;
+    letter-spacing: 0;
+    padding: 70px 0 10px 0;
+    margin-bottom: 20px;
+    background: url(images/line01_black01.png) no-repeat center bottom;
+    background-size: 200px;
+}
+.box {
+    padding: 60px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+}
+.box2 {
+    padding: 60px 0;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    text-align: left;
+}
+.box > .text, .box2 > .text {
+    margin: 0 25px;
+    font-size: 16px;
+    letter-spacing: 0.2em;
+}
+.index {
+    width: 100px;
+    background: #000;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.index img {
+    width: 85%;
+    padding-top: 7px;
+}
+.note {
+    font-size: 11px;
+    margin-top: 20px;
+    letter-spacing: normal;
+}
+.note2 {
+    font-size: 13px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.text > h3 {
+    font-size: 22px;
+    letter-spacing: 0;
+    background: none;
+    padding: 0 0 30px 0;
+    margin: 0;
+}
+h3 span {
+    font-size: 14px;
+}
+.text {
+    position: relative;
+}
+.text a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.text:hover {
+    opacity: 0.7;
+}
+.what-nkou img {
+    width: 100%;
+    margin: 130px 0 50px 0;
+}
+.what-nkou:hover {
+    opacity: 0.7;
+}
+ul.message-link {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+.message-link li {
+    width: 45%;
+    height: 100%;
+    margin: 15px 25px;
+    background: url(images/bg_diagonal01_black01.png);
+    padding: 0;
+}
+.message-link a {
+    display: block;
+    color: #000;
+    font-size: 25px;
+    padding: 13px 35px 13px 25px;
+    background: #fff url(images/icon_arrow01_right_black01.png) no-repeat right 15px center;
+    background-size: 5px 8px;
+    text-align: left;
+    margin: 5px;
+}
+.message-link span {
+    display: block;
+    font-size: 13px;
+    line-height: 14px;
+    padding-top: 10px;
+}
+
