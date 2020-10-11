@@ -312,3 +312,130 @@ header {
     background-size: 5px 8px;
 }
 
+/* ============== main =============== */
+.main-wrapper {
+    max-width: 1050px;
+    margin: 0 auto;
+}
+h2 {
+    font-size: 34px;
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: 5px;
+    line-height: 60px;
+    padding-top: 90px;
+    padding-bottom: 60px;
+}
+.main-wrapper p {
+    text-align: center;
+    font-size: 23px;
+    padding-bottom: 25px;
+}
+.message {
+    width: 635px;
+    margin: 0 auto;
+    font-size: 16.5px;
+    line-height: 28px;
+    padding-top: 25px;
+    background: url(images/line01_black01.png) no-repeat center top;
+    background-size: 200px;
+}
+h3 {
+    font-size: 26px;
+    font-weight: normal;
+    margin: 30px 0;
+    padding: 10px 0;
+    background: url(images/line02_black01.png) no-repeat left 0 bottom;
+    background-size: 100%;
+}
+.edu-list {
+    display: flex;
+    position: relative;
+    padding-bottom: 120px;
+}
+.edu-list li {
+    display: flex;
+    align-items: center;
+    margin: 25px 0;
+    font-size: 19px;
+}
+.edu-list h4 {
+    font-size: 24px;
+    font-weight: normal;
+    padding: 8px 13px 8px 0;
+    margin-right: 15px;
+    border-right: solid 1px #000000;
+    text-align: justify;
+}
+.about-image {
+    position: absolute;
+    left: 550px;
+    top: 15px;
+}
+.about-image img {
+    width: 630px;
+}
+.n-standard {
+    display: flex;
+    width: 610px;
+    margin: 0 auto;
+    background: #f7f7f7;
+    padding: 30px 25px 30px 40px;
+    border: solid 1px #dddddd;
+    position: relative;
+}
+.n-standard .text {
+    margin: 0 0 0 20px;
+}
+.n-standard .title {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 20px;
+}
+.n-standard p {
+    font-size: 16px;
+    letter-spacing: 4px;
+    line-height: 25px;
+    text-align: left;
+}
+.read-more img {
+    width: 70px;
+    margin: 30px 0;
+    padding-left: 20px;
+    background: url(images/icon_arrow01_right_black01.png) no-repeat left 5px top 3px;
+    background-size: 5px 8px;
+}
+.n-standard a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:100%;
+    width: 100%;
+}
+.n-standard:hover img {
+    opacity: 0.8;
+}
+
+.charm-block {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+h4 {
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 25px;
+    background: url(images/line01_black01.png) no-repeat left 0 bottom;
+    background-size: 500px;
+    line-height: 45px;
+}
+.charm-block p {
+    margin-top: 10px;
+    width: 480px;
+    text-align: left;
+    font-size: 17px;
+}
+.postscript {
+    font-size: 12px;
+}
