@@ -162,28 +162,27 @@ nav li:nth-child(3):hover {
 nav li:nth-child(4):hover {
     background: url(images/global_nav_btn01_04.png) no-repeat center bottom;
 }
-
+nav {
+    position: relative;
+}
+.now-page:after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 60px;
+    top: 72px;
+    border-style: solid;
+    border-color: transparent transparent transparent #181937;
+    border-width: 10px 0 10px 17.32px;
+    transform: rotate(30deg);
+}
 
 .header-sub-nav {
     background: #181937;
     margin-top: 23px;
     padding: 5px 0 5px 0;
     font-size: 15px;
-}
-header {
-    position: relative;
-}
-.header-sub-nav:after{
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 0;
-    left: 270px;
-    top: 171px;
-    border-style: solid;
-    border-color: transparent transparent transparent #181937;
-    border-width: 10px 0 10px 17.32px;
-    transform: rotate(30deg);
 }
 .header-sub-nav ul {
     max-width: 1050px;
@@ -790,7 +789,10 @@ footer > .wrapper {
     font-size: 16px;
 }
 .nav-heading span {
+    display: block;
+    line-height: 0.5rem;
     font-size: 11px;
+    font-weight: normal;
 }
 .footer-sub-nav a:hover {
     text-decoration: underline;
