@@ -474,7 +474,7 @@ article {
     justify-content: space-between;
     text-align: left;
 }
-.box2 {
+.reverse-box {
     padding: 60px 0;
     display: flex;
     flex-direction: row-reverse;
@@ -529,7 +529,7 @@ h3 span {
 .box > .text:hover {
     opacity: 0.7;
 }
-.box2 > .text:hover {
+.reverse-box > .text:hover {
     opacity: 0.7;
 }
 .what-nkou img {
